@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    /> 
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title> GlobalTravels</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">GlobalTravels</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#trending">Trending</a></li>
+          <li class="link"><a href="#destination">Destinations</a></li>
+          <li class="link"><a href="#guide">Guide</a></li>
+          <li class="link"><a href="#client">Clients</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Explore the beauty of the world. Discover More of you</h1>
+        <div class="header__form">
+          <form id="availabilityForm">
+            <div class="input__group">
+              <label for="destination">Where do you want to go?</label>
+              <input type="text" placeholder="Country, ZIP" />
+            </div>
+            <div class="input__group">
+              <label for="checkIn">Check In</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="input__group">
+              <label for="CheckOut">Check Out</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="input__group">
+              <label for="guests">Guests</label>
+              <input type="text" placeholder="Number of guests" />
+            </div>
+            <button class="btn">Check Availbilty</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <section class="section__container trending__container" id="trending">
+      <div class="section__header">
+        <h2 class="section__title">Most Popular of 2023</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="trending__grid">
+        <div class="trending__card">
+          <img src="trending img/Tokyo Japan trending.jpeg" alt="trending" />
+          <h1>Tokyo Japan </h1>
+          <p>Climbing Mount Funji | Cultural Tours</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>$855.50</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>4.5 (23)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 7 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+        <div class="trending__card">
+          <img src="trending img/Greece trending.jpg" alt="trending" />
+          <h1>Greece</h1>
+          <p>Rent a boat| Group Tour</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>$650.00</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>5.0 (52)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 5 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+        <div class="trending__card">
+          <img src="trending img/mexico trending.jpg" alt="trending" />
+          <h1>Mexico</h1>
+          <p>Scenic Beauty | Learn Salsa</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>$900.00</h3>
+              <p>*Price varies</p>
+            </div>
+            <div class="trending__ratings">
+              <div>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                
+              </div>
+              <p>4.5 (34)</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 8 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container destination__container" id="destination">
+      <div class="section__header">
+        <h2 class="section__title">Trending Destinations</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="Trending Destinations/Paris france Destiniation.jpg" alt="destination" />
+          <div class="badge">4.3</div>
+          <div class="destination__details">
+            <h4>Paris </h4>
+            <p>France</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Trending Destinations/Rio Destination.jpg" alt="destination" />
+          <div class="badge">4.5</div>
+          <div class="destination__details">
+            <h4>Rio de Janeiro</h4>
+            <p>Brazil</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Trending Destinations/Kenya Destination.jpg" alt="destination" />
+          <div class="badge">4.6</div>
+          <div class="destination__details">
+            <h4>Kenya</h4>
+            <p>Africa</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Trending Destinations/denmark-greenland-northern-lights.jpg" alt="destination" />
+          <div class="badge">4.3</div>
+          <div class="destination__details">
+            <h4>Greenland</h4>
+            <p>Denmark </p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Trending Destinations/Bora bora.jpg" alt="destination" />
+          <div class="badge">4.2</div>
+          <div class="destination__details">
+            <h4>Bora Bora</h4>
+            <p>Adeventure Time</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="Trending Destinations/Plaza-Botero-Medellin-Colombia-cityscape-destination-1200x900.jpg" alt="destination" />
+          <div class="badge">4.7</div>
+          <div class="destination__details">
+            <h4>Medellin</h4>
+            <p>Colombia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container seller__container" id="seller">
+      <div class="section__header">
+        <h2 class="section__title">Popular This Month </h2>
+        <div class="section__btn">
+          <button class="btn">Check All</button>
+        </div>
+      </div>
+      <div class="seller__grid">
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="Popular This Month/Super nintendo world.jpg" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">30%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>5 Days | 06 Nights</p>
+                  <h4>$225.00</h4>
+                </div>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Japan Attractions Tour </h4>
+            <p>Private Japan Tour with a Local Guide: Tailored to Your Interests</p>
+          </div>
+        </div>
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="Popular This Month/jamaica.jpeg" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">20%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>08 Days | 10 Nights</p>
+                  <h4>$855.50</h4>
+                </div>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Jamaica</h4>
+            <p>Jamaica Sea Beauty | Jump in !</p>
+          </div>
+        </div>
+        <div class="seller__card">
+          <div class="seller__image">
+            <img src="Popular This Month/Spain.jpeg" alt="seller" />
+            <div class="seller__image__content">
+              <div class="badge">25%</div>
+              <div class="seller__image__footer">
+                <div class="seller__price">
+                  <p>12 Days | 13 Nights</p>
+                  <h4>1250.00</h4>
+                </div>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="seller__details">
+            <h4>Girona and Costa Brava Spain</h4>
+            <p>Small-Group Tour with Hotel Pickup from Barcelona</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="section__container guide__container" id="guide">
+      <div class="section__header">
+        <h2 class="section__title">Tour Helpers</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="guide__grid">
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="Guide img/Brenda guide 1.jpeg" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Brenda C</h4>
+            </div>
+            <p>
+              Discover the allure of the seaside with our expert guidance and
+               create memories that echo the joyous spirit of summer by the shore.
+               With an ardent love for the sun-kissed shores and the rhythmic dance of summer waves, our dedicated experts are thrilled to guide you through immersive experiences that capture the essence of coastal bliss
+               
+
+            </p>
+          </div>
+        </div>
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="Guide img/Tokyo Tyrese.jpeg" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Tyrese</h4>
+              <p>City Lover</p>
+            </div>
+            <p>
+"With an unbridled passion for the pulsating energy of urban landscapes
+our dedicated experts are thrilled to guide you through immersive experiences that encapsulate the dynamic spirit of city life, akin to the bustling vibrancy of Tokyo. Picture yourself amidst the neon-lit streets,
+ where the heartbeat of the city synchronizes with your own. Let Me show you HIDDEN GEMS!
+
+Let us be your storytellers,
+            </p>
+          </div>
+        </div>
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="Guide img/Dubai Brandon.webp" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Miles</h4>
+              <p>Loves the Desert</p>
+            </div>
+            <p>
+              Embark with us on a desert adventure, where every step unveils the mystique of the vast expanse and each sunrise and sunset paints the sky with hues of warmth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="section__header">
+        <h2 class="section__title">Vacation Reviews</h2>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div>
+      </div>
+      <div class="client__grid">
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+          </div>
+          <p>
+          Global Travels is the best website when it comes to planning trips. Our guide Brenda was amazing!
+          This is the website you need when planning Trips! My husband and I recently embarked on what can only be described as a fairytale honeymoon in the breathtaking haven of Bora Bora. 
+          From the moment we landed at this tropical paradise, it felt like we had stepped into a dream.
+          The overwater bungalow, perched above the crystal-clear turquoise waters, was nothing short of enchanting. 
+          Waking up to the gentle lull of the waves beneath us and the panoramic view of the iconic Mount Otemanu was surreal.
+           The room was a sanctuary of luxury and romance, adorned with vibrant flowers that added a touch of Polynesian charm.
+          </p>
+          <div class="client__card__footer">
+            <img src="Reviews/Honey Moon.jpg" alt="client" />
+            <div class="client__details">
+              <h4>Irene </h4>
+              <p>Experinced traveler</p>
+            </div>
+          </div>
+        </div>
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+          </div>
+          <p>
+            GlobalTravels knows how to make their clients feel confident and comfortable.
+            They are so welcoming and affordable. Embarking on a solo adventure to Brazil was a decision that transformed my life in ways I never imagined.
+             From the vibrant streets of Rio de Janeiro to the lush Amazon rainforest, 
+             every step was a dance of discovery, and every heartbeat echoed with the pulsating rhythms of this diverse and enchanting country. GLOBAL TRAVELS ROCKS
+          </p>
+          <div class="client__card__footer">
+            <img src="Reviews/Solo Travel.jpeg" alt="client" />
+            <div class="client__details">
+              <h4>Kayla</h4>
+              <p>Solo Traveler</p>
+            </div>
+          </div>
+        </div>
+        <div class="client__card">
+          <div class="client__card__header">
+            <span><i class="ri-double-quotes-r"></i></span>
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+          </div>
+          <p>
+           For a first time traveler, Global Travels made this so easy and stressfree for my family. Their Package plan was a great deal. I am so grateful for Tyrese. 
+           He made our family trip the best it can be! Thank you Tyrese. 
+           Our family vacation to Greece was nothing short of epic—a journey through ancient history, pristine beaches, and the warm embrace of Hellenic hospitality.
+            From the historic streets of Athens to the sun-drenched islands of the Aegean, Greece unfolded before us like a captivating tale, leaving indelible memories etched in our hearts.
+          </p>
+          <div class="client__card__footer">
+            <img src="Reviews/Family vacation.jpg" alt="client" />
+            <div class="client__details">
+              <h4>Miles</h4>
+              <p>First Timer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="section__container subscribe__container">
+        <h4>Don't Miss The News!</h4>
+        <form id="subscribeForm">
+          <input type="text" placeholder="Please enter your email address" />
+          <button class="btn" onclick="subscribeClicked(event)">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5>Global Travels </h5>
+          <p>Unleash the adventurer in you and let us be your guide to a realm of travel possibilities that promise unforgettable moments and unparalleled discoveries
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer__col">
+          <h4>Features</h4>
+          <a href="#">Vacation Packages</a>
+          <a href="#">Gallery</a>
+          <a href="#">Affordable Traveling</a>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
